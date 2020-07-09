@@ -10,6 +10,7 @@ const Todos = ({ todos, completeTodo }) => {
           <Todo
             key={index}
             text={todo.text}
+            isCompleted={todo.isCompleted}
             completeTodo={completeTodo}
             index={index}
           />

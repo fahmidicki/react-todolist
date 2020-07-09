@@ -21,12 +21,12 @@ const Todolist = () => {
 
   const completeTodo = index => {
     const addedTodo = [...todos];
-    addedTodo[index].isCompleted = true;
+    addedTodo[index].isCompleted = !addedTodo[index].isCompleted;
 
     setTodos(addedTodo);
   };
   const showAddToggle = () => setShowAdd(!showAdd);
-  console.log("todos", todos);
+  //console.log("todos", todos);
 
   return (
     <Paper>
