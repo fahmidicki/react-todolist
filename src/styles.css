@@ -147,3 +147,14 @@ html {
 .add-btn.main-black-color:active {
   text-shadow: 1px 1px 2px var(--main-black-color);
 }
+
+.todo-placeholder-text {
+  font-family: "Homemade Apple", sans-serif;
+  font-size: 24px;
+  text-align: center;
+  padding: 16px;
+}
+.add-button-placeholder-text {
+  font-size: 24px;
+  font-family: "Bungee Inline", sans-serif;
+}
