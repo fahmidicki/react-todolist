@@ -6,12 +6,6 @@
   --main-red-color: #e06262;
   --main-black-color: #484848;
 }
-.main-red-color {
-  color: var(--main-red-color);
-}
-.main-black-color {
-  color: var(--main-black-color);
-}
 
 .align-left {
   text-align: left;
@@ -72,16 +66,6 @@ html {
   font-size: 3.6rem;
   font-family: "Homemade Apple", sans-serif;
   text-transform: lowercase;
-}
-.header-button {
-  width: 24%;
-  font-size: 1.8rem;
-  font-family: "Bungee Inline", sans-serif;
-  padding: 16px;
-  cursor: pointer;
-  background: unset;
-  border: unset;
-  outline: unset;
 }
 
 .add {
@@ -147,12 +131,7 @@ html {
   left: 50%;
   transform: translate(-50%);
 }
-.header-button.main-red-color:active {
-  text-shadow: 1px 1px 2px var(--main-red-color);
-}
-.header-button.main-black-color:active {
-  text-shadow: 1px 1px 2px var(--main-black-color);
-}
+
 .add-btn.main-black-color:active {
   text-shadow: 1px 1px 2px var(--main-black-color);
 }
